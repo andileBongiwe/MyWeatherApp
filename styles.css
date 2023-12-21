@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url(./final-bg\ image\(Weather-App\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    border-radius: 5px white;
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.flex{
+    display: flex;
+}
+
+.main-main-container{
+    height: 90%;
+    width: 90%;
+    /* background-color: #77858e78; */
+    border-radius: 20px;
+}
+
+.width-70{
+    width: 70%;
+    background-color: orangered;
+}
+
+.width-30{
+    width: 30%;
+    background-color: transparent;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 4px;
+    border: none;
+    background-color: #ffffff;
+    color: orange;
+}
