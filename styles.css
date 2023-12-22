@@ -26,14 +26,17 @@ body{
     border-radius: 20px;
 }
 
+input{
+    background-color: transparent;
+}
 .width-70{
     width: 70%;
-    background-color: orangered;
+    /* background-color: orangered; */
 }
 
 .width-30{
     width: 30%;
-    background-color: transparent;
+    background-color: rgb(0 0 0 / 38%);
 }
 
 .btn{
