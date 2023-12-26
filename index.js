@@ -1,1 +1,1 @@
-const 
+const searchBar = document.getElementById('search')
