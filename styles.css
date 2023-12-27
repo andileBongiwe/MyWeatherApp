@@ -1,4 +1,50 @@
-body{
+h1{
+    margin: 0;
+}
+
+.main-main-container{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-80{
+    width: 80%;
+    height: 90%;
+    background-image: url(./final-bg\ image\(Weather-App\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 30px;
+}
+
+.div-body{
+    height: 469px;
+    background-color: blue;
+}
+
+.left{
+    width: 70%;
+    height: 100%;
+}
+
+.weather-status{
+    width: 90%;
+    height: calc(100% - 469px);
+}
+ 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* body{
     margin: 0;
     height: 100vh;
     background-image: url(./final-bg\ image\(Weather-App\).jpg);
@@ -32,7 +78,7 @@ body{
     height: 90%;
     width: 90%;
     /* background-color: #77858e78; */
-    border-radius: 20px;
+    /* border-radius: 20px;
 }
 
 input{
@@ -41,7 +87,7 @@ input{
 .width-70{
     width: 70%;
     /* background-color: orangered; */
-}
+/* }
 
 .width-30{
     width: 30%;
@@ -54,4 +100,4 @@ input{
     border: none;
     background-color: #ffffff;
     color: orange;
-}
+} */ 
