@@ -13,16 +13,22 @@ h1{
 .width-80{
     width: 80%;
     height: 90%;
+    display: flex;
     background-image: url(./final-bg\ image\(Weather-App\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
     border-radius: 30px;
+
+}
+
+.center-center{
+    display: flex;
+    justify-content: center;
 }
 
 .div-body{
     height: 469px;
-    background-color: blue;
 }
 
 .left{
@@ -30,14 +36,25 @@ h1{
     height: 100%;
 }
 
+
+
+
+.right{
+    width: 30%;
+    height: 80%;
+    background-color:#0000006e;
+    border-top-right-radius: 26px;
+}
+
 .weather-status{
-    width: 90%;
+    width: 100%;
     height: calc(100% - 469px);
 }
  
 .flex{
     display: flex;
-    justify-content: space-between;
+    gap: 5em;
+    justify-content: center;
     align-items: center;
 }
 
