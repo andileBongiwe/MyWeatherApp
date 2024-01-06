@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Application</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <div class="main-main-container">
 
         <div class="width-80 center-center">
             <div class="left ">
-                <div class="div-body p-absolute">
-                    <img id="weatherIcon" src="./reshot-icon-sun-and-cloud-65PMRJT84G.svg" style="height: 150px;">
+                <div class="div-body ">
+                 <div> <h2>Get your weather updates <sub>Anywhere AT Anytime</sub></h2> 
+                    <div class="searchBar">
+                        <input id="prompt" type="text" placeholder="Search here">
+                        <button id="button" class="btn">Search</button>
+                    </div>
+                    <img id="weatherIcon"  style="height: 150px;"></div>
+                   <b><div id="dayTime" class="time"></div></b>
+                   <div id="forecast"></div>
                 </div>
                 <footer class="weather-status flex center-center">
-                    <h1>32&deg;C</h1>
-                    <p>Randburff khigukikgdjk</p>
-                    <div>gkhbjlmbnujsfol</div>
+                    <div>
+                        <h1 class="temp">&deg;C</h1>
+                    </div>
+                    <div>
+                        <h2 class="cityName" ></h2>
+                    </div>
+                    <div>
+                        <b><p class="desciption"></p></b>
+                        <p class="humidity"></p>
+                        <p class="wind"></p>
+                    </div>
                 </footer>
             </div>
             <div class="right">
-                <input type="text" placeholder="Search here"> 
-                <button>Search</button>
-    
+                
+                <div>
+                    <h4>Recent Search</h4>
+                    <hr>
+                </div>
+
+                <div class="mid-div" id="history">
+                    <div id="firstHis" onclick="historyNav()"></div>
+                    <div id="secondHis"></div>
+                    <div id="thirdHis"></div>
+                    <div id="fourthHis"></div>
+                </div>
+                <footer class="developer center">
+                    <div class="center"><p>Developed BY</p> 
+                        <button class="btn"> Andile Msibi</button>
+                    </div>
+                    
+                </footer>
             </div>
         </div>
-    </div>  
+    </div>
+    <script src="./index.js">
+
+    </script>
 </body>
-    <!-- <div class="main-main-container flex">
+<!-- <div class="main-main-container flex">
         <div class="width-70 flex-center">
             <footer class="footer-width flex-center">
                 <div> 
@@ -50,5 +85,6 @@
 
         </div>
     </div> -->
-</body>
-</html> 
+<!-- </body> -->
+
+</html>
